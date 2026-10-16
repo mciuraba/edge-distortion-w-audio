@@ -1,0 +1,9 @@
+python bass_edge_distort.py YOUR_INPUT.mp4 distorted_output.mp4 \
+  --decay 0.3 \
+  --decay-shape 0.7 \
+  --displacement 60 \
+  --chromatic 35 \
+  --edge-max 30 \
+  --edge-base 0 \
+  --onset-delta 0.1 \
+  --bass-fmax 160

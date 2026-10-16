@@ -3,5 +3,12 @@ name = "edge-distortion-w-audio"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.11"
-dependencies = []
+requires-python = ">=3.14.2"
+dependencies = [
+    "librosa>=0.10.0",
+    "moviepy>=1.0.3",
+    "numpy>=1.24.0",
+    "opencv-python>=4.8.0",
+    "scipy>=1.11.0",
+    "soundfile>=0.12.0",
+]
